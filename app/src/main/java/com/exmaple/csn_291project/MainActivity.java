@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(my_addTask_intent);
     }
 
+    public void addList(View view){
+        Intent my_addList_intent = new Intent(this,addList.class);
+        startActivity(my_addList_intent);
+    }
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -70,7 +75,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(my_projects_intent);
                 break;
             case R.id.completedtasks:
-                Toast.makeText(this, "We need to do more", Toast.LENGTH_SHORT).show();
+                Intent my_completed_tasks_intent = new Intent(this,completed_tasks.class);
+                startActivity(my_completed_tasks_intent);
+                break;
+            case R.id.performance:
+                Intent my_performance_intent = new Intent(this,performance.class);
+                startActivity(my_performance_intent);
                 break;
         }
         return true;

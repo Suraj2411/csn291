@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.exmaple.csn_291project" >
+    package="com.exmaple.csn_291project">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CSN291Project" >
+        android:theme="@style/Theme.CSN291Project">
+        <activity
+            android:name=".addList"
+            android:exported="false" />
+        <activity
+            android:name=".performance"
+            android:exported="false" />
+        <activity
+            android:name=".completed_tasks"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".addProject"
-            android:parentActivityName=".projects_activity"/>
+            android:parentActivityName=".projects_activity" />
         <activity
             android:name=".projects_activity"
             android:parentActivityName=".MainActivity" />
@@ -20,7 +29,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

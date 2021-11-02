@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_add_list.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_add_project.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_add_task.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_completed_tasks.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_performance.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_projects.xml" value="0.17692307692307693" />
         <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/add_activity_addtask.xml" value="0.1796875" />
         <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_completedtasks.xml" value="0.1796875" />
