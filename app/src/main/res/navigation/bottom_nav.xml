@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/today">
+
+    <fragment
+        android:id="@+id/today"
+        android:label="Today"
+        android:name="com.exmaple.csn_291project.ui.todaystasks.todaystasks"
+        tools:layout="@layout/fragment_todaystasks"/>
+    <fragment
+        android:id="@+id/upcoming"
+        android:label="Upcoming"
+        android:name="com.exmaple.csn_291project.ui.upcomingtasks.upcomingtasks"
+        tools:layout="@layout/fragment_upcomingtasks"/>
+    <fragment
+        android:id="@+id/lists"
+        android:label="Lists"
+        android:name="com.exmaple.csn_291project.ui.lists.lists"
+        tools:layout="@layout/fragment_lists"/>
+
+</navigation>

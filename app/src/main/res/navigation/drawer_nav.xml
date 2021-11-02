@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_nav"
+    app:startDestination="@id/projects">
+
+    <fragment
+        android:id="@+id/projects_view"
+        android:label="Projects"
+        android:name="com.exmaple.csn_291project.ui.projects.projects"
+        tools:layout="@layout/fragment_todaystasks"/>
+    <fragment
+        android:id="@+id/completedtasks_view"
+        android:label="Completed Tasks"
+        android:name="com.exmaple.csn_291project.ui.completedtasks.completedtasks"
+        tools:layout="@layout/fragment_upcomingtasks"/>
+    <fragment
+        android:id="@+id/performance_view"
+        android:label="Performance"
+        android:name="com.exmaple.csn_291project.ui.performance.performance"
+        tools:layout="@layout/fragment_lists"/>
+
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_add_project.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_add_task.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/activity_projects.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/add_activity_addtask.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_completedtasks.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_lists.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_performance.xml" value="0.165625" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_projects.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_todaystasks.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/fragment_upcomingtasks.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/layout/nav_header_layout.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/menu/bottom_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/Rizwana/Desktop/CSN291Project/app/src/main/res/menu/nav_drawer.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

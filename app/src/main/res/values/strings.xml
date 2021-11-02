@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CSN-291 Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_completed_tasks">Completed Tasks Fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

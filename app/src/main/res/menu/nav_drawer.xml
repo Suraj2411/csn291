@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/projects"
+        android:icon="@drawable/ic_baseline_supervisor_account_24"
+        android:title="Projects"/>
+    <item
+        android:id="@+id/completedtasks"
+        android:icon="@drawable/ic_baseline_done_24"
+        android:title="Completed Tasks"/>
+    <item
+        android:id="@+id/performance"
+        android:icon="@drawable/ic_baseline_stairs_24"
+        android:title="Perforamce"/>
+</menu>
