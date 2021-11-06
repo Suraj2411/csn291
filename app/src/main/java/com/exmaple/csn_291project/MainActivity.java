@@ -9,6 +9,12 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import java.util.ArrayList;
+import java.util.List;
+import com.exmaple.csn_291project.Adapter.RecyclerViewAdapter;
+import com.exmaple.csn_291project.data.MyListDBHandler;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -16,8 +22,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import com.exmaple.csn_291project.model.lists;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -29,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ActionBarDrawerToggle toggle;
     NavigationView navigationView;
 
+    private RecyclerView recyclerView;
+    private RecyclerViewAdapter recyclerViewAdapter;
+    private  ArrayList<lists> Array_of_Listnames;
+    private ArrayAdapter<String> arrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +58,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         navigationView.setNavigationItemSelectedListener(this);
         NavigationUI.setupWithNavController(bottomNavigationView,navController);
+
+        //Recyclerview initialization
+        recyclerView = findViewById(R.id.listrecyclerView);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        MyListDBHandler db = new MyListDBHandler(MainActivity.this);
+
+
+
+        Array_of_Listnames = new ArrayList<>();
+
+
+        // Get all contacts
+        List<lists> Array_List = db.getAllLists();
+        for(lists List: Array_List){
+            Array_of_Listnames.add(List);
+        }
+
+//        Use your recyclerView
+        recyclerViewAdapter = new RecyclerViewAdapter(MainActivity.this, Array_of_Listnames);
+        recyclerView.setAdapter(recyclerViewAdapter);
 
     }
 

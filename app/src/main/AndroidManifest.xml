@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSN291Project">
         <activity
-            android:name=".addList"
+            android:name=".list_items"
             android:exported="false" />
         <activity
+            android:name=".addList"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".performance"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".completed_tasks"
             android:parentActivityName=".MainActivity" />
